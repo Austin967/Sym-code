@@ -1,0 +1,140 @@
+
+
+body{color: black;
+	 text-align: left;
+	 display: block;
+	 }
+
+#wrapper{ Background-color: grey;
+		  float: auto;
+		  border: 2px solid black;
+		 }
+		 
+#first{
+	background-color: #E0FFFF;
+	border: 2px solid black;
+		}
+		
+#second{ }
+
+#third{}
+
+#last{border: 2px solid black;}
+	
+#mission{
+	border: 1px solid black;
+	
+	float: auto;
+		padding: 10px;}
+	
+#consoles{column-count: 2; 
+		column-gap: 60px; 
+		column-rule: 4px double black;
+		column-rule-style: solid;
+		flex: 1;
+  padding: 16px;
+		text-align: center;
+		border: 2px solid black;
+	float: auto;
+		}
+
+#games{background-color:	#FFF0F5;
+	column-count: 2; 
+		column-gap: 60px; 
+		column-rule: 4px double black;
+		column-rule-style: solid;
+		text-align: center;
+		border: 2px solid black;
+		float: auto;
+		padding: 5px;}
+
+#accesories{column-count: 2; 
+		column-gap: 60px; 
+		column-rule: 4px double black;
+		column-rule-style: solid;
+		text-align: center;
+		border: 2px solid black;
+	float: auto;
+		padding: 5px;}
+
+#FAQ{column-count: 4; 
+		column-gap: 60px; 
+		column-rule: 4px double black;
+		column-rule-style: solid;
+		flex: 1;
+  padding: 16px;
+		text-align: center;
+		border: 2px solid black;
+	float: auto;
+		}
+
+h1{display:block;
+	color:black;
+	font-weight: bold;
+   font-family:Georgia, "Times New Roman", serif;
+	height:150px;
+	margin:0; 
+	padding: 10px;
+	background-image:url("retro.2.png");
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	background-position: right;}
+		
+h2{display: block;
+	font-weight: bold;
+	margin: 0;
+	padding: 10px;
+	text-align: center;
+	background-color: #008B8B;
+	font-family:Georgia, "Times New Roman", serif;
+	border: 2px solid black;}
+	
+h3{background-color: 	#FFFAF0;
+	display: block;
+	
+	padding: 5px;
+	}
+
+p{}
+
+#floatright { margin: 10px;
+float: right top; 
+clear: right;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+
+
+footer{
+	background-color: 	#5F9EA0;
+	color: #000000;
+	font-size: .8 em;
+	text-align: center;
+	font-style: italic;
+	padding:10px;
+	border: 2px solid black;
+}
